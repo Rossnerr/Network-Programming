@@ -28,4 +28,4 @@ Below are presented 2 versions of outputs.
 ![Variant](https://github.com/Rossnerr/Network-Programming/blob/master/Lab.2/Screens/Output%202.PNG)
 
 ### Conclusion
-This laboratory work served as good starting point in the conccurent and multi-threading programming.
+This laboratory work served as a good starting point in the conccurent and multi-threading programming. I have learned what concurrency is and how can I use threads in order to create a concurrent program. Because threads are working on the shared data the communication between them should be realised in a proper way. Synchronization is a tool that can prevent different errors while trying to establish a communication between multiple threads.
