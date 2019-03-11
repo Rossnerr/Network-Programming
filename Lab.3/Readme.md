@@ -55,4 +55,17 @@ to use. I placed the response in the _content_ string.
  
 Using the _disconnect()_ method can help us in closing the connection.
 
-Below are present responses I have got to the GET and POST requests.
+An important thing I want to mention is that the approach I used to create and execute a request does not allow me to perform all of the
+above mentioned for a _PACTH_ request. Because of that I have used another approach which implies use of _httpcomponents_ dependencies.
+They can be added manually to the project or by using an automation tool such as Maven. Generally speaking both workflows pass in the same way, no matter what approach is used: first the connection is created, then additional parameters are added, after that the request is executed and finally the response is read.
+
+Because of the possibility of getting an image from that server I have decided to create one more GET request. But this one differs from previous one, here I used the _read()_ method of the _ImageIO_ class. I passed an URL to read from as the function's argument. In order to view the image I used a JFrame object.
+
+Below are presented responses I have got to the GET and POST requests and the returned image from the server.
+
+![Variant](https://github.com/Rossnerr/Network-Programming/blob/master/Lab.3/Screens/GET.PNG)
+
+![Variant](https://github.com/Rossnerr/Network-Programming/blob/master/Lab.3/Screens/POST.PNG)
+
+### Conclusion
+In this laboratory work I have learned what the HTTP protocol is and how it can be used while trying to communicate through the internet. Also, I have developed a HttpClient application which deals with the main HTTP methods. There are several possibilites of creating and executing requests in Java. No matter what approach will be used, the workflow remains the same.
