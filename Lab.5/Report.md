@@ -113,3 +113,8 @@ In order to send and receive data a _DatagramPacket_ is used. When sending the h
             msgReceived = msgReceived.trim();
             System.out.println("Server:" + msgReceived);
 ```
+
+![result](https://github.com/Rossnerr/Network-Programming/blob/master/Lab.5/Screens/result.PNG)
+
+### Conclusion
+In this laboratory work I have gained knowledge about what a socket is and why it is used for. There are serveral ways of making a client-server application which will send and receive data. Based on the needs different protocols can be used. During this laboratory work I have implemented 2 of them: TCP and UDP. First uses a mechanism for ensuring that data is received while the second does not.
